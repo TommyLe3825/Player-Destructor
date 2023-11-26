@@ -8,7 +8,7 @@ class Player
     Player(int x)
     {
         points = x;
-        points %= 5;
+        points %= 5; //possible values seem to be only 0-4
     }
     ~Player(){
       cout << points;
